@@ -3,7 +3,7 @@ const { dungeons } = require("./dungeons.js").default;
 require('log-timestamp');
 
 const client = new Client({
-    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
+    intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMembers, GatewayIntentBits.MessageContent]
 });
 
 client.on("ready", () => {
