@@ -43,7 +43,8 @@ client.on("messageCreate", async (message) => {
                 advancedSettings: {
                     image: dungeon ? dungeon.banner : "",
                     alt_names: true,
-                    show_info: false
+                    show_info: false,
+                    create_discordevent: false
                 }
             })
         });
