@@ -10,8 +10,16 @@ client.on("ready", () => {
     console.log(`${client.user.username} connected`);
 });
 
+client.on('threadCreate', async (thread) => {
+    // Make sure it's only the forum id we want
+    if (thread.parentId == process.env.FORUM_ID) {
+        console.log(thread);
+    }
+})
+
 client.on("messageCreate", async (message) => {
     if (message.channel.parentId == process.env.FORUM_ID && message.channel.messageCount == 1) {
+        console.log(message);
         let thread = message.channel;
         // Try to get the Dungeon banner based on the thread name
         const dungeon = Object.values(dungeons).find(d =>
