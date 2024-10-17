@@ -55,6 +55,14 @@ const dungeons = {
         alias: ["dmt", "dme", "dmn", "dmw", "dire", "maul"],
         banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294048165846192128/diremaul.png"
     },
+    //zulgurub: {
+    //    alias: ["zg", "zul", "gurub"],
+    //    banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294048165846192128/diremaul.png"
+    //},
+    //aq20: {
+    //    alias: ["aq", "Ahn", "Qiraj", "ruins"],
+    //    banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294048165846192128/diremaul.png"
+    //},
     wailingcaverns: {
         alias: ["wailing", "wc"],
         banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294041978673172500/wlc.png"
