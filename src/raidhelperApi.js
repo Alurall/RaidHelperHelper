@@ -29,7 +29,7 @@ async function newEvent(message, token, dungeon) {
 }
 
 async function getEvent(channelId, token, guildId) {
-    const url = `https://raid-helper.dev/api/v2/servers/${guildId}/events`
+    const url = `https://raid-helper.dev/api/v3/servers/${guildId}/events`
     try {
         const response = await fetch(url, {
             method: 'GET',
