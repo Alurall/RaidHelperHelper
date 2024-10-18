@@ -19,6 +19,9 @@ async function newEvent(message, token, dungeon) {
                     show_info: false,
                     font_style: 0,
                     apply_unregister: true,
+                    pin_message: true,
+                    defaults_pre_req: false,
+                    color: dungeon ? dungeon.color : "",
                     create_discordevent: false
                 }
             })

@@ -1,83 +1,103 @@
 const dungeons = {
     shadowfangkeep: {
         alias: ["sfk", "shadowfang"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294042516781269083/sfk.png"
+        color: "#2a3130",
+        banner: "https://justanendpoint.com/banners/sfk.png"
     },
     thestockade: {
         alias: ["stock"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294042974103146600/stockades.png"
+        color: "#181b21",
+        banner: "https://justanendpoint.com/banners/stockades.png"
     },
     blackfathomdeeps: {
         alias: ["bfd", "fathom", "deeps"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294043271798194196/bfd.png"
+        color: "#425a48",
+        banner: "https://justanendpoint.com/banners/bfd.png"
     },
     gnomeregan: {
         alias: ["gnom"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294043710312546376/gnomeregan.png"
+        color: "#2c362e",
+        banner: "https://justanendpoint.com/banners/gnomeregan.png"
     },
     razorfenkraul: {
         alias: ["rfk", "kraul"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294044103130091541/rfk.png"
+        color: "#3f301a",
+        banner: "https://justanendpoint.com/banners/rfk.png"
     },
     razorfendowns: {
         alias: ["rfd", "down"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294045077873885247/rfd.png"
+        color: "#292d23",
+        banner: "https://justanendpoint.com/banners/rfd.png"
     },
     uldaman: {
         alias: ["ulda"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294045425321377892/uldaman.png"
+        color: "#182015",
+        banner: "https://justanendpoint.com/banners/uldaman.png"
     },
     zulfarrak: {
         alias: ["zul", "farrak", "zf"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294045797976903781/zulfarrak.png"
+        color: "#c0822b",
+        banner: "https://justanendpoint.com/banners/zulfarrak.png"
     },
     maraudon: {
         alias: ["mara"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294046106753171457/maraudon.png"
+        color: "#c7c242",
+        banner: "https://justanendpoint.com/banners/maraudon.png"
     },
     brd: {
         alias: ["depth", "brd"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294046816471617536/brd.png"
+        color: "#cc6b20",
+        banner: "https://justanendpoint.com/banners/brd.png"
     },
     blackrockspire: {
         alias: ["brs", "spire"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294047183192199229/ubrs.png"
+        color: "#483922",
+        banner: "https://justanendpoint.com/banners/ubrs.png"
     },
     scholomance: {
         alias: ["scholo"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294047554287435996/scholomance.png"
+        color: "#333012",
+        banner: "https://justanendpoint.com/banners/scholomance.png"
     },
     stratholme: {
         alias: ["strat"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294047841223966821/stratholme.png"
+        color: "#291409",
+        banner: "https://justanendpoint.com/banners/stratholme.png"
     },
     diremaul: {
         alias: ["dmt", "dme", "dmn", "dmw", "dire", "maul"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294048165846192128/diremaul.png"
+        color: "#472526",
+        banner: "https://justanendpoint.com/banners/diremaul.png"
     },
     //zulgurub: {
     //    alias: ["zg", "zul", "gurub"],
-    //    banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294048165846192128/diremaul.png"
+    //color: "",
+    //    banner: "htjustanendpoint.com/banners/diremaul.png"
     //},
     //aq20: {
-    //    alias: ["aq", "Ahn", "Qiraj", "ruins"],
-    //    banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294048165846192128/diremaul.png"
+    //    alias: ["aq", "Ahn", "qiraj", "ruins"],
+    //color: "",
+    //    banner: "htjustanendpoint.com/banners/diremaul.png"
     //},
     wailingcaverns: {
         alias: ["wailing", "wc"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294041978673172500/wlc.png"
+        color: "#212814",
+        banner: "https://justanendpoint.com/banners/wlc.png"
     },
     scarletmonastery: {
         alias: ["scarlet", "monastery", "arm", "cath", "lib", "sm"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294044542923964428/sm.png"
+        color: "#9fdbce",
+        banner: "https://justanendpoint.com/banners/sm.png"
     },
     deadmines: {
         alias: ["dm", "deadmine"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294038644520390737/ergergre.png"
+        color: "#5fb5bd",
+        banner: "https://justanendpoint.com/banners/ergergre.png"
     },
     st: {
         alias: ["atal", "hakkar", "st", "sunken"],
-        banner: "https://cdn.discordapp.com/attachments/700747206285721651/1294046477332643890/st.png"
+        color: "#334310",
+        banner: "https://justanendpoint.com/banners/st.png"
     },
 }
 

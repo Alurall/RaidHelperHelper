@@ -117,7 +117,10 @@ client.on('threadUpdate', async (oldThread, newThread) => {
             process.env.RAIDHELPER_TOKEN,
             {
                 title: newThread.name,
-                advancedSettings: { image: dungeon ? dungeon.banner : "" }
+                advancedSettings: {
+                    image: dungeon ? dungeon.banner : "",
+                    color: dungeon ? dungeon.color : ""
+                }
             }
         );
         console.log(data.status);
