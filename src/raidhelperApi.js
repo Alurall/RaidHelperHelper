@@ -18,6 +18,7 @@ async function newEvent(message, token, dungeon) {
                     alt_names: true,
                     show_info: false,
                     font_style: 0,
+                    apply_unregister: true,
                     create_discordevent: false
                 }
             })
