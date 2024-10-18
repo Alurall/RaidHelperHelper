@@ -17,6 +17,7 @@ async function newEvent(message, token, dungeon) {
                     image: dungeon ? dungeon.banner : "",
                     alt_names: true,
                     show_info: false,
+                    font_style: 0,
                     create_discordevent: false
                 }
             })
