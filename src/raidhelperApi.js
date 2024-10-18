@@ -16,7 +16,8 @@ async function newEvent(message, token, dungeon) {
                 advancedSettings: {
                     image: dungeon ? dungeon.banner : "",
                     alt_names: true,
-                    show_info: false,
+                    show_info: true,
+                    mention_leader: true,
                     font_style: 0,
                     apply_unregister: true,
                     pin_message: true,
