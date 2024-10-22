@@ -45,7 +45,7 @@ const dungeons = {
         banner: "https://justanendpoint.com/banners/maraudon.png"
     },
     brd: {
-        alias: ["depth", "brd"],
+        alias: ["depth", "brd", "emperor"],
         color: "#cc6b20",
         banner: "https://justanendpoint.com/banners/brd.png"
     },
