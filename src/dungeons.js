@@ -69,16 +69,16 @@ const dungeons = {
         color: "#472526",
         banner: "https://justanendpoint.com/banners/diremaul.png"
     },
-    //zulgurub: {
-    //    alias: ["zg", "zul", "gurub"],
-    //color: "",
-    //    banner: "htjustanendpoint.com/banners/diremaul.png"
-    //},
-    //aq20: {
-    //    alias: ["aq", "Ahn", "qiraj", "ruins"],
-    //color: "",
-    //    banner: "htjustanendpoint.com/banners/diremaul.png"
-    //},
+    zulgurub: {
+        alias: ["zg", "zul", "gurub"],
+        color: "#474b25",
+        banner: "https://justanendpoint.com/banners/zg.png"
+    },
+    aq20: {
+        alias: ["aq", "ahn", "qiraj", "ruins", "20"],
+        color: "#463622",
+        banner: "https://justanendpoint.com/banners/aq20.png"
+    },
     wailingcaverns: {
         alias: ["wailing", "wc"],
         color: "#212814",
