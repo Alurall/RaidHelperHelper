@@ -50,12 +50,12 @@ const dungeons = {
         banner: "https://justanendpoint.com/banners/brd.png"
     },
     blackrockspire: {
-        alias: ["brs", "spire"],
+        alias: ["brs", "spire", "rend", "draki", "drakki"],
         color: "#483922",
         banner: "https://justanendpoint.com/banners/ubrs.png"
     },
     scholomance: {
-        alias: ["scholo"],
+        alias: ["scholo", "rattle", "kirtonos"],
         color: "#333012",
         banner: "https://justanendpoint.com/banners/scholomance.png"
     },
